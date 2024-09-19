@@ -1,52 +1,53 @@
-/* General form container */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f5f5f5;
+}
+
+/* Formulário */
 .form-container {
-    background-color: #f5f5f5;
-    border-radius: 5px;
-    padding: 20px;
-    margin: 0 auto;
-    max-width: 600px;
-  }
-  
-  /* Form labels */
-  .form-label {
-    font-weight: bold;
-    color: #333;
-    margin-bottom: 5px;
-    display: block; /* Make labels appear on separate lines */
-  }
-  
-  /* Input fields */
-  .form-control {
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    height: 40px;
-    padding: 5px 10px; /* Adjust padding for better readability */
-  }
-  
-  /* Specific field styling */
-  #cep {
-    width: 100%; /* Override Bootstrap width for CEP field */
-  }
-  
- 
-  
-  
-  #numero {
-    width: 50%; /* Adjust width for number field */
-  }
-  
-  /* Submit button */
-  .btn-primary {
-    float: right;
-    margin-top: 15px;
-    background-color: #4CAF50; /* Green color */
-    color: white;
-    border: none;
-    border-radius: 4px;
-    padding: 10px 20px;
-    cursor: pointer; /* Indicate clickable button */
-  }
-  
-  .btn-primary:hover {
-    background-color: #3e8e41; /* Darker green on hover */
-  }
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0,  
+0, 0, 0.1);
+}
+
+.form-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 15px;
+  border: 15px #ddd;
+}
+
+/* Labels e Inputs */
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input {
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  padding: 8px;
+  width: 100%;
+}
+
+input::placeholder {
+  color: #999;
+  font-style: italic;
+}
+button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color:  
+#0069d9;
+}
