@@ -16,6 +16,10 @@ Criar o formulário: Crie um formulário HTML com os campos cep, rua, bairro, ci
 Associar o evento: Associe o evento focusout ao campo cep para que a função pesquisarCep seja chamada quando o campo perder o foco.
 Exemplo de HTML:
 
+
+# Exemplo com imagens
+
+![exemplo](img/img_exemple.png)
 HTML
 
 
