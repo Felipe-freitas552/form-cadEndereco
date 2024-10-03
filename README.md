@@ -17,7 +17,7 @@ Associar o evento: Associe o evento focusout ao campo cep para que a função pe
 Exemplo de HTML:
 
 HTML
-<br>
+
 
 <!DOCTYPE html>
 <html>
@@ -39,7 +39,7 @@ HTML
 
 <br>
 
-Explicação do Código:
+# Explicação do Código:
 ***use strict: Ativa o modo restrito do JavaScript, * evitando erros comuns e facilitando a depuração. *
 limparFormulario: Limpa os campos do formulário antes de realizar uma nova consulta.
 eNumero: Verifica se uma string contém apenas dígitos numéricos utilizando uma expressão regular.
@@ -51,7 +51,7 @@ Verifica se o CEP é válido.
 Realiza uma requisição à API do ViaCEP.
 Verifica se o endereço foi encontrado.
 Preenche o formulário ou exibe uma mensagem de erro.***
-
+<br>
 
 addEventListener: Associa o evento focusout ao campo cep para chamar a função pesquisarCep.
 Observações:
@@ -63,5 +63,5 @@ Melhorias Possíveis:
 Tratamento de erros: Implementar um tratamento de erros mais robusto para lidar com situações como falhas na conexão com a API.
 Interface do usuário: Melhorar a interface do usuário com mensagens mais claras e feedback visual.
 
-## Autor
-# Felipe André de Freitas Loução
+# Autor
+## Felipe André de Freitas Loução
