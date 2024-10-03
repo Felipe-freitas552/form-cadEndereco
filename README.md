@@ -37,7 +37,7 @@ HTML
 
 
 Explicação do Código:
-*** use strict: Ativa o modo restrito do JavaScript, * evitando erros comuns e facilitando a depuração. *
+***use strict: Ativa o modo restrito do JavaScript, * evitando erros comuns e facilitando a depuração. *
 limparFormulario: Limpa os campos do formulário antes de realizar uma nova consulta.
 eNumero: Verifica se uma string contém apenas dígitos numéricos utilizando uma expressão regular.
 cepValido: Verifica se o CEP possui 8 dígitos numéricos.
@@ -47,7 +47,7 @@ Limpa o formulário.
 Verifica se o CEP é válido.
 Realiza uma requisição à API do ViaCEP.
 Verifica se o endereço foi encontrado.
-Preenche o formulário ou exibe uma mensagem de erro. ***
+Preenche o formulário ou exibe uma mensagem de erro.***
 
 
 addEventListener: Associa o evento focusout ao campo cep para chamar a função pesquisarCep.
