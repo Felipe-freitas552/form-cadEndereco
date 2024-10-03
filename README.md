@@ -28,8 +28,9 @@ Exemplo de HTML:
 ***preencherFormulario: Preenche os campos do formulário com as informações do endereço.***
 
 ![exemplo3](img/img_pesquisarCep.png)
-***pesquisarCep: Executa código para mostrar as informações do CEP.***
 <br>
+***pesquisarCep: Executa código para mostrar as informações do CEP.***
+
 
 
 HTML
