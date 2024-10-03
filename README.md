@@ -29,7 +29,7 @@ Exemplo de HTML:
 
 ![exemplo3](img/img_pesquisarCep.png)
 ***pesquisarCep: Executa código para mostrar as informações do CEP 
-
+<br>
 HTML
 
 
