@@ -16,7 +16,7 @@ Criar o formulário: Crie um formulário HTML com os campos cep, rua, bairro, ci
 Associar o evento: Associe o evento focusout ao campo cep para que a função pesquisarCep seja chamada quando o campo perder o foco.
 Exemplo de HTML:
 
-* HTML
+HTML
 <!DOCTYPE html>
 <html>
 <head>
@@ -34,10 +34,10 @@ Exemplo de HTML:
     <script src="seu_script.js"></script>
 </body>
 </html>
-*
+
 
 Explicação do Código:
-use strict: Ativa o modo restrito do JavaScript, evitando erros comuns e facilitando a depuração.
+*** use strict: Ativa o modo restrito do JavaScript, * evitando erros comuns e facilitando a depuração. *
 limparFormulario: Limpa os campos do formulário antes de realizar uma nova consulta.
 eNumero: Verifica se uma string contém apenas dígitos numéricos utilizando uma expressão regular.
 cepValido: Verifica se o CEP possui 8 dígitos numéricos.
@@ -47,7 +47,9 @@ Limpa o formulário.
 Verifica se o CEP é válido.
 Realiza uma requisição à API do ViaCEP.
 Verifica se o endereço foi encontrado.
-Preenche o formulário ou exibe uma mensagem de erro.
+Preenche o formulário ou exibe uma mensagem de erro. ***
+
+
 addEventListener: Associa o evento focusout ao campo cep para chamar a função pesquisarCep.
 Observações:
 API ViaCEP: Certifique-se de que a API do ViaCEP esteja disponível e funcionando corretamente.
