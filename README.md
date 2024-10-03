@@ -17,6 +17,8 @@ Associar o evento: Associe o evento focusout ao campo cep para que a função pe
 Exemplo de HTML:
 
 HTML
+<br>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -35,6 +37,7 @@ HTML
 </body>
 </html>
 
+<br>
 
 Explicação do Código:
 ***use strict: Ativa o modo restrito do JavaScript, * evitando erros comuns e facilitando a depuração. *
