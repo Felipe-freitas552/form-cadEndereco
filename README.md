@@ -47,11 +47,15 @@ Preenche o formulário ou exibe uma mensagem de erro.***
 addEventListener: Associa o evento focusout ao campo cep para chamar a função pesquisarCep.
 Observações:
 API ViaCEP: Certifique-se de que a API do ViaCEP esteja disponível e funcionando corretamente.
+<br>
 Async/Await: O código utiliza async/await para lidar com requisições assíncronas de forma mais clara.
+<br>
 Expressões Regulares: A expressão regular ^[0-9]+$ é utilizada para validar se uma string contém apenas dígitos numéricos.
+<br>
 Propriedade hasOwnProperty: É utilizada para verificar se o objeto retornado pela API possui dados, indicando que o CEP foi encontrado.
-Melhorias Possíveis:
+<br>
 Tratamento de erros: Implementar um tratamento de erros mais robusto para lidar com situações como falhas na conexão com a API.
+<br>
 Interface do usuário: Melhorar a interface do usuário com mensagens mais claras e feedback visual.
 
 # Autor
