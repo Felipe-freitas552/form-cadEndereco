@@ -3,6 +3,7 @@
 # Descrição:
 Este código JavaScript implementa uma funcionalidade de consulta de CEP utilizando a API do ViaCEP. Ao inserir um CEP válido em um campo de formulário, o script busca as informações correspondentes no banco de dados do ViaCEP e preenche automaticamente os campos de rua, bairro, cidade e estado.
 
+
 Funcionalidades:
 Validação de CEP: Verifica se o CEP inserido possui 8 dígitos numéricos.
 Consulta à API ViaCEP: Realiza uma requisição à API do ViaCEP para obter as informações do endereço.
@@ -15,7 +16,7 @@ Criar o formulário: Crie um formulário HTML com os campos cep, rua, bairro, ci
 Associar o evento: Associe o evento focusout ao campo cep para que a função pesquisarCep seja chamada quando o campo perder o foco.
 Exemplo de HTML:
 
-HTML
+* HTML
 <!DOCTYPE html>
 <html>
 <head>
@@ -33,7 +34,7 @@ HTML
     <script src="seu_script.js"></script>
 </body>
 </html>
-
+*
 
 Explicação do Código:
 use strict: Ativa o modo restrito do JavaScript, evitando erros comuns e facilitando a depuração.
