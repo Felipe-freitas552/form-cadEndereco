@@ -21,11 +21,15 @@ Exemplo de HTML:
 
 ![exemplo](img/img_exemple.png)
 <br>
+***limparFormulario: Limpa os campos do formulário antes de realizar uma nova consulta.***
 
 ![exemplo2](img/Captura%20de%20tela%202024-10-03%20074035.png)
 <br>
+***preencherFormulario: Preenche os campos do formulário com as informações do endereço.***
 
 ![exemplo3](img/img_pesquisarCep.png)
+***pesquisarCep: Executa código para mostrar as informações do CEP 
+
 HTML
 
 
@@ -51,11 +55,9 @@ HTML
 
 # Explicação do Código:
 ***use strict: Ativa o modo restrito do JavaScript, * evitando erros comuns e facilitando a depuração. *
-limparFormulario: Limpa os campos do formulário antes de realizar uma nova consulta.
+
 eNumero: Verifica se uma string contém apenas dígitos numéricos utilizando uma expressão regular.
 cepValido: Verifica se o CEP possui 8 dígitos numéricos.
-preencherFormulario: Preenche os campos do formulário com as informações do endereço.
-pesquisarCep:
 Limpa o formulário.
 Verifica se o CEP é válido.
 Realiza uma requisição à API do ViaCEP.
