@@ -20,6 +20,12 @@ Exemplo de HTML:
 # Exemplo com imagens
 
 ![exemplo](img/img_exemple.png)
+<br>
+
+![exemplo2](img/Captura%20de%20tela%202024-10-03%20074035.png)
+<br>
+
+![exemplo3](img/img_pesquisarCep.png)
 HTML
 
 
