@@ -1,5 +1,5 @@
 ## Consulta CEP ViaCEP - JavaScript
-
+![cep](img/cep.gif)
 # Descrição:
 Este código JavaScript implementa uma funcionalidade de consulta de CEP utilizando a API do ViaCEP. Ao inserir um CEP válido em um campo de formulário, o script busca as informações correspondentes no banco de dados do ViaCEP e preenche automaticamente os campos de rua, bairro, cidade e estado.
 
