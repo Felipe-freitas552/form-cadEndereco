@@ -46,4 +46,4 @@ const pesquisarCep = async() => {
  
 // Executa a ação de preenchimento do formulario ao deixar o campo do cep
 
-document.getElementById('cep').addEventListener('focusout , pesquisarCep');
+document.getElementById('cep').addEventListener('focusout', pesquisarCep);
